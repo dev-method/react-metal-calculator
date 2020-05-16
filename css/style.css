@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#container {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #DCDDE0;
+    border-radius: 6px;
+    height: auto;
+    overflow: hidden;
+}
+.container-header{
+    color: #DCDDE0;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #DCDDE0;
+    background-color: #56719a;
+}
+
+.container-header h3 {
+    line-height: 1em;
+    margin:0 !important;
+}
+
+.workspace-container {
+   width: 70%;
+}
+.list-container {
+   width: 30%;
+}
+
+.h3-wrapper {
+    height: auto;
+    border-right: 1px solid #DCDDE0;
+}
+
+.top-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+}
+.bottom-box {
+    border-top: 1px solid #DCDDE0;
+    width: 100%;
+    height: 50px;
+    background-color: #eae6e0;
+}
+.profile-list {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    margin-top: 15px;
+    border-right:1px solid #DCDDE0;
+}
+.profile-image {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    border-right: 1px solid #DCDDE0;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    display: flex;
+}
+.workspace{
+    border-right:1px solid #DCDDE0;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+}
+
+.workspace-inner-block {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-list-border {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.materials-list-item {
+    background-color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    margin-left: 1px;
+    font-weight: 600;
+    color:#4b5050;
+}
+.materials-list-item:hover {
+    background-color: #e2e7ea;
+}
+
+.materials-list {
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.profile-image-wrapper {
+    width: 100%;
+    align-self: center;
+    justify-content:center;
+}
+
+.list-item {
+    cursor: pointer;
+}
+
+input[type=number] {
+    width: 95%;
+    border-radius: 3px;
+    padding: 6px 8px;
+    border: 1px solid #d7dadb;
+}
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+select {
+    padding: 6px 8px;
+    width: 55%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: none;
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+    font-family: 'Roboto', sans-serif;
+}
+.button-calc {
+    background-color: #56719a; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+}
+.button-calc-wrapper {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.header-back {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.sortament {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.measures {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.marks {
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.input-measures {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.button-text {
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.weight-bottom-text {
+    padding-left: 20px;
+    padding-top: 7px;
+    width: 100%;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.weight-bottom-result {
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.input-tite {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
